@@ -15,7 +15,6 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone: http://localhost:8106/eureka/
-
   server:
     wait-time-in-ms-when-sync-empty: 0
 
@@ -36,5 +35,5 @@ info:
 logging:
   level:
     org.springframework.cloud.config: DEBUG
-    org.springframework.framework.security: DEBUG
+    org.springframework.security: DEBUG
     org.springframework.web.reactive.function.client.ExchangeFunctions: DEBUG
