@@ -5,7 +5,7 @@ spring:
   application:
     name: books-service
   datasource:
-    url: jdbc:oracle:thin:@localhost:1521:xe
+    url: jdbc:oracle:thin:@localhost:1521:XE
     username: SpringSecurityRest
     password: SpringSecurityRest
     driver-class-name: oracle.jdbc.OracleDriver
